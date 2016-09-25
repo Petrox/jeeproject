@@ -70,6 +70,7 @@ ii  busybox-initramfs                          1:1.22.0-15ubuntu1               
 ii  busybox-static                             1:1.22.0-15ubuntu1                                          amd64        Standalone rescue shell with tons of builtin utilities
 ii  bzip2                                      1.0.6-8                                                     amd64        high-quality block-sorting file compressor - utilities
 ii  ca-certificates                            20160104ubuntu1                                             all          Common CA certificates
+ii  check-postgres                             2.22.0-1                                                    all          script for monitoring PostgreSQL databases
 ii  checkbox-converged                         1.2.4-0ubuntu1                                              all          testing tool for all Ubuntu devices
 ii  checkbox-gui                               1.2.4-0ubuntu1                                              all          QML based interface for checkbox (transitional package)
 ii  cheese                                     3.18.1-2ubuntu3                                             amd64        tool to take pictures and videos from your webcam
@@ -77,6 +78,7 @@ ii  cheese-common                              3.18.1-2ubuntu3                  
 ii  chromium-browser                           52.0.2743.116-0ubuntu0.16.04.1.1250                         amd64        Chromium web browser, open-source version of Chrome
 ii  chromium-browser-l10n                      52.0.2743.116-0ubuntu0.16.04.1.1250                         all          chromium-browser language packages
 ii  chromium-codecs-ffmpeg-extra               52.0.2743.116-0ubuntu0.16.04.1.1250                         amd64        Extra ffmpeg codecs for the Chromium Browser
+ii  clojure1.6                                 1.6.0+dfsg-1                                                all          Lisp dialect for the JVM
 ii  colord                                     1.2.12-1ubuntu1                                             amd64        system service to manage device colour profiles -- system daemon
 ii  colord-data                                1.2.12-1ubuntu1                                             all          system service to manage device colour profiles -- data files
 ii  command-not-found                          0.3ubuntu16.04.2                                            all          Suggest installation of packages in interactive bash sessions
@@ -596,8 +598,11 @@ ii  libcurl3:amd64                             7.47.0-1ubuntu2.1                
 ii  libcurl3-gnutls:amd64                      7.47.0-1ubuntu2.1                                           amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii  libdaemon0:amd64                           0.14-6                                                      amd64        lightweight C library for daemons - runtime library
 ii  libdata-alias-perl                         1.20-1build1                                                amd64        module to create aliases instead of copies
+ii  libdata-optlist-perl                       0.109-1                                                     all          module to parse and validate simple name/value option pairs
 ii  libdatrie1:amd64                           0.2.10-2                                                    amd64        Double-array trie library
 ii  libdb5.3:amd64                             5.3.28-11                                                   amd64        Berkeley v5.3 Database Libraries [runtime]
+ii  libdbd-pg-perl                             3.5.3-1build1                                               amd64        Perl DBI driver for the PostgreSQL database server
+ii  libdbi-perl                                1.634-1build1                                               amd64        Perl Database Interface (DBI)
 ii  libdbus-1-3:amd64                          1.10.6-1ubuntu3                                             amd64        simple interprocess messaging system (library)
 ii  libdbus-glib-1-2:amd64                     0.106-1                                                     amd64        simple interprocess messaging system (GLib-based shared library)
 ii  libdbusmenu-glib4:amd64                    12.10.3+16.04.20160223.1-0ubuntu1                           amd64        library for passing menus over DBus
@@ -734,6 +739,7 @@ ii  libgeronimo-interceptor-3.0-spec-java      1.0.1-3fakesync1                 
 ii  libgeronimo-jpa-2.0-spec-java              1.1-2                                                       all          Geronimo JSR-317 Java Persistence (JPA) 2.0 Spec API
 ii  libgeronimo-jta-1.1-spec-java              1.1.1-3ubuntu1                                              all          Geronimo API implementation of the JTA 1.1 spec
 ii  libgeronimo-osgi-support-java              1.1-1                                                       all          Java libraries providing OSGi lookup support for Geronimo projects
+ii  libgetopt-long-descriptive-perl            0.099-1                                                     all          module that handles command-line arguments with usage text
 ii  libgettextpo-dev:amd64                     0.19.7-2ubuntu3                                             amd64        GNU Internationalization library development files
 ii  libgettextpo0:amd64                        0.19.7-2ubuntu3                                             amd64        GNU Internationalization library
 ii  libgexiv2-2:amd64                          0.10.3-2                                                    amd64        GObject-based wrapper around the Exiv2 library
@@ -821,6 +827,7 @@ ii  libgutenprint2                             5.2.11-1                         
 ii  libgweather-3-6:amd64                      3.18.2-0ubuntu0.1                                           amd64        GWeather shared library
 ii  libgweather-common                         3.18.2-0ubuntu0.1                                           all          GWeather common files
 ii  libgxps2:amd64                             0.2.3.2-1                                                   amd64        handling and rendering XPS documents (library)
+ii  libha-jdbc-java                            2.0.16+rc1-2                                                all          JDBC proxy that provides clustering capability to any JDBC driver
 ii  libhamcrest-java                           1.3-5ubuntu1                                                all          library of matchers for building test expressions
 ii  libharfbuzz-icu0:amd64                     1.0.1-1ubuntu0.1                                            amd64        OpenType text shaping engine ICU backend
 ii  libharfbuzz0b:amd64                        1.0.1-1ubuntu0.1                                            amd64        OpenType text shaping engine (shared library)
@@ -830,6 +837,8 @@ ii  libheimbase1-heimdal:amd64                 1.7~git20150920+dfsg-4ubuntu1    
 ii  libheimntlm0-heimdal:amd64                 1.7~git20150920+dfsg-4ubuntu1                               amd64        Heimdal Kerberos - NTLM support library
 ii  libhogweed4:amd64                          3.2-1                                                       amd64        low level cryptographic library (public-key cryptos)
 ii  libhpmud0:amd64                            3.16.3+repack0-1                                            amd64        HP Multi-Point Transport Driver (hpmud) run-time libraries
+ii  libhsqldb-java                             2.3.3+dfsg2-1                                               all          Java SQL database engine
+ii  libhsqldb-java-doc                         2.3.3+dfsg2-1                                               all          documentation for HSQLDB
 ii  libhtml-form-perl                          6.03-1                                                      all          module that represents an HTML form element
 ii  libhtml-format-perl                        2.11-2                                                      all          module for transforming HTML into various formats
 ii  libhtml-parser-perl                        3.72-1                                                      amd64        collection of modules that parse HTML text documents
@@ -865,6 +874,7 @@ ii  libio-pty-perl                             1:1.08-1.1build1                 
 ii  libio-socket-inet6-perl                    2.72-2                                                      all          object interface for AF_INET6 domain sockets
 ii  libio-socket-ssl-perl                      2.024-1                                                     all          Perl module implementing object oriented interface to SSL sockets
 ii  libio-string-perl                          1.08-3                                                      all          Emulate IO::File interface for in-core strings
+ii  libio-stringy-perl                         2.110-5                                                     all          Perl modules for IO from scalars and arrays
 ii  libipc-run-perl                            0.94-1                                                      all          Perl module for running processes
 ii  libipc-system-simple-perl                  1.25-3                                                      all          Perl module to run commands simply, with detailed diagnostics
 ii  libisc-export160                           1:9.10.3.dfsg.P4-8ubuntu1                                   amd64        Exported ISC Shared Library
@@ -880,6 +890,7 @@ ii  libjansi-native-java                       1.0-4                            
 ii  libjarjar-java                             1.4+svn142-4ubuntu1                                         all          repackage third-party jars
 ii  libjasper1:amd64                           1.900.1-debian1-2.4ubuntu1                                  amd64        JasPer JPEG-2000 runtime library
 ii  libjatl-java                               0.2.2-2                                                     all          JATL - Java Anti-Template Language
+ii  libjava-jdbc-clojure                       0.2.2-2                                                     all          Clojure interface to sql databases via jdbc
 ii  libjavascriptcoregtk-1.0-0:amd64           2.4.11-0ubuntu0.1                                           amd64        JavaScript engine library from WebKitGTK+
 ii  libjavascriptcoregtk-3.0-0:amd64           2.4.11-0ubuntu0.1                                           amd64        JavaScript engine library from WebKitGTK+
 ii  libjavascriptcoregtk-4.0-18:amd64          2.12.5-0ubuntu0.16.04.1                                     amd64        JavaScript engine library from WebKitGTK+
@@ -897,12 +908,14 @@ ii  libjetty-extra                             6.1.26-5                         
 ii  libjetty-extra-java                        6.1.26-5                                                    all          Java servlet engine and webserver -- extra libraries
 ii  libjetty-java                              6.1.26-5                                                    all          Java servlet engine and webserver -- core libraries
 ii  libjformatstring-java                      0.10~20131207-1                                             amd64        Java format string compile-time checker
+ii  libjline-java                              1.0-2                                                       all          Java library for handling console input
 ii  libjline2-java                             2.11-4                                                      all          console input handling in Java
 ii  libjna-java                                4.2.2-1                                                     all          Dynamic access of native libraries from Java without JNI
 ii  libjna-jni                                 4.2.2-1                                                     amd64        Dynamic access of native libraries from Java without JNI (native libs)
 ii  libjpeg-turbo8:amd64                       1.4.2-0ubuntu3                                              amd64        IJG JPEG compliant runtime library.
 ii  libjpeg8:amd64                             8c-2ubuntu8                                                 amd64        Independent JPEG Group's JPEG runtime library (dependency package)
 ii  libjs-jquery                               1.11.3+dfsg-4                                               all          JavaScript library for dynamic web applications
+ii  libjs-underscore                           1.7.0~dfsg-1ubuntu1                                         all          JavaScript's functional programming helper library
 ii  libjsch-java                               0.1.53-1ubuntu1                                             all          Java implementation of the SSH2 protocol
 ii  libjson-c2:amd64                           0.11-4ubuntu2                                               amd64        JSON manipulation library - shared library
 ii  libjson-glib-1.0-0:amd64                   1.1.2-0ubuntu1                                              amd64        GLib JSON manipulation library
@@ -973,6 +986,8 @@ ii  libmirprotobuf3:amd64                      0.21.0+16.04.20160330-0ubuntu1   
 ii  libmm-glib0:amd64                          1.4.12-1ubuntu1                                             amd64        D-Bus service for managing modems - shared libraries
 ii  libmng2:amd64                              2.0.2-0ubuntu3                                              amd64        Multiple-image Network Graphics library
 ii  libmnl0:amd64                              1.0.3-5                                                     amd64        minimalistic Netlink communication library
+ii  libmodule-implementation-perl              0.09-1                                                      all          module for loading one of several alternate implementations of a module
+ii  libmodule-runtime-perl                     0.014-2                                                     all          Perl module for runtime module handling
 ii  libmount1:amd64                            2.27.1-6ubuntu3.1                                           amd64        device mounting library
 ii  libmpc3:amd64                              1.0.3-1                                                     amd64        multiple precision complex floating-point library
 ii  libmpdec2:amd64                            2.4.2-1                                                     amd64        library for decimal floating point arithmetic (runtime library)
@@ -984,6 +999,7 @@ ii  libmtp-common                              1.1.10-2ubuntu1                  
 ii  libmtp-runtime                             1.1.10-2ubuntu1                                             amd64        Media Transfer Protocol (MTP) runtime tools
 ii  libmtp9:amd64                              1.1.10-2ubuntu1                                             amd64        Media Transfer Protocol (MTP) library
 ii  libmwaw-0.3-3:amd64                        0.3.7-1ubuntu2                                              amd64        import library for some old Mac text documents
+ii  libmysql-java                              5.1.38-1                                                    all          Java database (JDBC) driver for MySQL
 ii  libmythes-1.2-0:amd64                      2:1.2.4-1ubuntu3                                            amd64        simple thesaurus library
 ii  libnative-platform-java                    0.10+dfsg-1build1                                           all          Java bindings for various native APIs
 ii  libnative-platform-jni                     0.10+dfsg-1build1                                           amd64        Java bindings for various native APIs - JNI library
@@ -1065,6 +1081,9 @@ ii  libpangomm-1.4-1v5:amd64                   2.38.1-1                         
 ii  libpangoxft-1.0-0:amd64                    1.38.1-1                                                    amd64        Layout and rendering of internationalized text
 ii  libpaper-utils                             1.1.24+nmu4ubuntu1                                          amd64        library for handling paper characteristics (utilities)
 ii  libpaper1:amd64                            1.1.24+nmu4ubuntu1                                          amd64        library for handling paper characteristics
+ii  libparams-classify-perl                    0.013-5build1                                               amd64        Perl module for argument type classification
+ii  libparams-util-perl                        1.07-2build2                                                amd64        Perl extension for simple stand-alone param checking functions
+ii  libparams-validate-perl                    1.22-1                                                      amd64        Perl module to validate parameters to Perl method/function calls
 ii  libparse-debianchangelog-perl              1.2.0-8                                                     all          parse Debian changelogs and output them in other formats
 ii  libparted2:amd64                           3.2-15                                                      amd64        disk partition manipulator - shared library
 ii  libpcap0.8:amd64                           1.7.4-2                                                     amd64        system interface for user-level packet capture
@@ -1254,6 +1273,8 @@ ii  libssl1.0.0:amd64                          1.0.2g-1ubuntu4.5                
 ii  libstartup-notification0:amd64             0.12-4build1                                                amd64        library for program launch feedback (shared library)
 ii  libstdc++-5-dev:amd64                      5.4.0-6ubuntu1~16.04.2                                      amd64        GNU Standard C++ Library v3 (development files)
 ii  libstdc++6:amd64                           5.4.0-6ubuntu1~16.04.2                                      amd64        GNU Standard C++ Library v3
+ii  libsub-exporter-perl                       0.986-1                                                     all          sophisticated exporter for custom-built routines
+ii  libsub-install-perl                        0.928-1                                                     all          module for installing subroutines into packages easily
 ii  libsub-name-perl                           0.14-1build1                                                amd64        module for assigning a new name to referenced sub
 ii  libsuitesparseconfig4.4.6:amd64            1:4.4.6-1                                                   amd64        configuration routines for all SuiteSparse modules
 ii  libsybdb5:amd64                            0.91-6.1build1                                              amd64        libraries for connecting to MS SQL and Sybase SQL servers
@@ -1265,6 +1286,7 @@ ii  libtasn1-6:amd64                           4.7-3ubuntu0.16.04.1             
 ii  libtcl8.6:amd64                            8.6.5+dfsg-2                                                amd64        Tcl (the Tool Command Language) v8.6 - run-time library files
 ii  libtdb1:amd64                              1.3.8-2                                                     amd64        Trivial Database - shared library
 ii  libtelepathy-glib0:amd64                   0.24.1-1.1                                                  amd64        Telepathy framework - GLib library
+ii  libterm-readpassword-perl                  0.11-3                                                      all          prompt user for a password
 ii  libtevent0:amd64                           0.9.28-0ubuntu0.16.04.1                                     amd64        talloc-based event loop library - shared library
 ii  libtext-charwidth-perl                     0.04-7build5                                                amd64        get display widths of characters on the terminal
 ii  libtext-iconv-perl                         1.7-5build4                                                 amd64        converts between character sets in Perl
@@ -1286,6 +1308,7 @@ ii  libtotem-plparser-common                   3.10.6-1ubuntu1                  
 ii  libtotem-plparser18:amd64                  3.10.6-1ubuntu1                                             amd64        Totem Playlist Parser library - runtime files
 ii  libtotem0:amd64                            3.18.1-1ubuntu4                                             amd64        Main library for the Totem media player
 ii  libtracker-sparql-1.0-0:amd64              1.6.2-0ubuntu1                                              amd64        metadata database, indexer and search tool - library
+ii  libtry-tiny-perl                           0.24-1                                                      all          module providing minimalistic try/catch
 ii  libtsan0:amd64                             5.4.0-6ubuntu1~16.04.2                                      amd64        ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
 ii  libtxc-dxtn-s2tc0:amd64                    0~git20131104-1.1                                           amd64        Texture compression library for Mesa
 ii  libubsan0:amd64                            5.4.0-6ubuntu1~16.04.2                                      amd64        UBSan -- undefined behaviour sanitizer (runtime)
@@ -1583,11 +1606,18 @@ ii  policykit-desktop-privileges               0.20                             
 ii  poppler-data                               0.4.7-7                                                     all          encoding data for the poppler PDF rendering library
 ii  poppler-utils                              0.41.0-0ubuntu1.1                                           amd64        PDF utilities (based on Poppler)
 ii  popularity-contest                         1.64ubuntu2                                                 all          Vote for your favourite packages automatically
+ii  postgresql                                 9.5+173                                                     all          object-relational SQL database (supported version)
 ii  postgresql-9.5                             9.5.4-0ubuntu0.16.04                                        amd64        object-relational SQL database, version 9.5 server
+ii  postgresql-client                          9.5+173                                                     all          front-end programs for PostgreSQL (supported version)
 ii  postgresql-client-9.5                      9.5.4-0ubuntu0.16.04                                        amd64        front-end programs for PostgreSQL 9.5
 ii  postgresql-client-common                   173                                                         all          manager for multiple PostgreSQL client versions
 ii  postgresql-common                          173                                                         all          PostgreSQL database-cluster manager
+ii  postgresql-comparator                      2.2.6-2                                                     amd64        efficient PostgreSQL table content comparison and synchronization
+ii  postgresql-contrib                         9.5+173                                                     all          additional facilities for PostgreSQL (supported version)
 ii  postgresql-contrib-9.5                     9.5.4-0ubuntu0.16.04                                        amd64        additional facilities for PostgreSQL
+ii  postgresql-doc                             9.5+173                                                     all          documentation for the PostgreSQL database management system
+ii  postgresql-doc-9.5                         9.5.4-0ubuntu0.16.04                                        all          documentation for the PostgreSQL database management system
+ii  postgresql-filedump                        9.3.0-3                                                     amd64        Utility to format PostgreSQL files
 ii  powermgmt-base                             1.31+nmu1                                                   all          Common utils and configs for power management
 ii  ppp                                        2.4.7-1+2ubuntu1                                            amd64        Point-to-Point Protocol (PPP) - daemon
 ii  pppconfig                                  2.3.22                                                      all          Text menu based utility for configuring ppp
@@ -1634,6 +1664,7 @@ ii  python-minimal                             2.7.11-1                         
 ii  python-notify                              0.1.1-4                                                     amd64        Python bindings for libnotify
 ii  python-psutil                              3.4.2-1                                                     amd64        module providing convenience functions for managing processes
 ii  python-psycopg2                            2.6.1-1build2                                               amd64        Python module for PostgreSQL
+ii  python-pygresql                            1:4.0-3.1                                                   amd64        PostgreSQL module for Python
 ii  python-pyorbit                             2.24.0-7.1                                                  amd64        A Python language binding for the ORBit2 CORBA implementation
 ii  python-samba                               2:4.3.9+dfsg-0ubuntu0.16.04.3                               amd64        Python bindings for Samba
 ii  python-talloc                              2.1.5-2                                                     amd64        hierarchical pool based memory allocator - Python bindings
@@ -1687,6 +1718,8 @@ ii  python3-pgspecial                          1.2.0+20151123-1ubuntu2          
 ii  python3-pil:amd64                          3.1.2-0ubuntu1                                              amd64        Python Imaging Library (Python3)
 ii  python3-pkg-resources                      20.7.0-1                                                    all          Package Discovery and Resource Access using pkg_resources
 ii  python3-plainbox                           0.25-1                                                      all          toolkit for software and hardware testing (python3 module)
+ii  python3-postgresql                         1.1.0-2build2                                               amd64        pgsql driver, cluster management tools, and client tools
+ii  python3-prettytable                        0.7.2-3                                                     all          library to represent tabular data in visually appealing ASCII tables (Python3)
 ii  python3-problem-report                     2.20.1-0ubuntu2.1                                           all          Python 3 library to handle problem reports
 ii  python3-prompt-toolkit                     0.57-1                                                      all          library for building interactive command lines (Python 3)
 ii  python3-psycopg2                           2.6.1-1build2                                               amd64        Python 3 module for PostgreSQL
@@ -1756,6 +1789,7 @@ ii  rhythmbox                                  3.3-1ubuntu7                     
 ii  rhythmbox-data                             3.3-1ubuntu7                                                all          data files for rhythmbox
 ii  rhythmbox-plugin-zeitgeist                 3.3-1ubuntu7                                                all          zeitgeist plugin for rhythmbox music player
 ii  rhythmbox-plugins                          3.3-1ubuntu7                                                amd64        plugins for rhythmbox music player
+ii  rlwrap                                     0.41-1build1                                                amd64        readline feature command line wrapper
 ii  rsync                                      3.1.1-3ubuntu1                                              amd64        fast, versatile, remote (and local) file-copying tool
 ii  rsyslog                                    8.16.0-1ubuntu3                                             amd64        reliable system and kernel logging daemon
 ii  rtkit                                      0.11-4                                                      amd64        Realtime Policy and Watchdog Daemon
@@ -1795,6 +1829,7 @@ ii  software-properties-gtk                    0.96.20.4                        
 ii  sound-theme-freedesktop                    0.8-1                                                       all          freedesktop.org sound theme
 ii  speech-dispatcher                          0.8.3-1ubuntu3                                              amd64        Common interface to speech synthesizers
 ii  speech-dispatcher-audio-plugins:amd64      0.8.3-1ubuntu3                                              amd64        Speech Dispatcher: Audio output plugins
+ii  sqlline                                    1.0.2-5                                                     all          JDBC command-line utility for issuing SQL
 ii  squashfs-tools                             1:4.3-3ubuntu2                                              amd64        Tool to create and append to squashfs filesystems
 ii  ssl-cert                                   1.0.37                                                      all          simple debconf wrapper for OpenSSL
 ii  strace                                     4.11-1ubuntu3                                               amd64        System call tracer

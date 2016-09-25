@@ -61,6 +61,7 @@ cheese
 cheese-common
 chromium-browser-l10n
 chromium-codecs-ffmpeg-extra
+clojure1.6
 colord
 colord-data
 command-not-found
@@ -501,7 +502,10 @@ libcurl3
 libcurl3-gnutls
 libdaemon0
 libdata-alias-perl
+libdata-optlist-perl
 libdatrie1
+libdbd-pg-perl
+libdbi-perl
 libdbus-1-3
 libdbus-glib-1-2
 libdbusmenu-glib4
@@ -626,6 +630,7 @@ libgeronimo-interceptor-3.0-spec-java
 libgeronimo-jpa-2.0-spec-java
 libgeronimo-jta-1.1-spec-java
 libgeronimo-osgi-support-java
+libgetopt-long-descriptive-perl
 libgettextpo-dev
 libgettextpo0
 libgexiv2-2
@@ -717,6 +722,7 @@ libhcrypto4-heimdal
 libheimbase1-heimdal
 libheimntlm0-heimdal
 libhpmud0
+libhsqldb-java
 libhtml-form-perl
 libhtml-format-perl
 libhtml-parser-perl
@@ -751,6 +757,7 @@ libio-pty-perl
 libio-socket-inet6-perl
 libio-socket-ssl-perl
 libio-string-perl
+libio-stringy-perl
 libipc-run-perl
 libipc-system-simple-perl
 libisc160
@@ -782,12 +789,14 @@ libjetty-extra
 libjetty-extra-java
 libjetty-java
 libjformatstring-java
+libjline-java
 libjline2-java
 libjna-java
 libjna-jni
 libjpeg-turbo8
 libjpeg8
 libjs-jquery
+libjs-underscore
 libjsch-java
 libjson-glib-1.0-0
 libjson-glib-1.0-common
@@ -849,6 +858,8 @@ libmircommon5
 libmirprotobuf3
 libmm-glib0
 libmng2
+libmodule-implementation-perl
+libmodule-runtime-perl
 libmpc3
 libmpfr4
 libmpx0
@@ -929,6 +940,9 @@ libpangomm-1.4-1v5
 libpangoxft-1.0-0
 libpaper-utils
 libpaper1
+libparams-classify-perl
+libparams-util-perl
+libparams-validate-perl
 libparse-debianchangelog-perl
 libparted2
 libpcap0.8
@@ -1097,6 +1111,8 @@ libssh-4
 libssh2-1
 libstartup-notification0
 libstdc++-5-dev
+libsub-exporter-perl
+libsub-install-perl
 libsub-name-perl
 libsuitesparseconfig4.4.6
 libsybdb5
@@ -1106,6 +1122,7 @@ libtalloc2
 libtcl8.6
 libtdb1
 libtelepathy-glib0
+libterm-readpassword-perl
 libtevent0
 libtext-levenshtein-perl
 libthai-data
@@ -1123,6 +1140,7 @@ libtotem-plparser-common
 libtotem-plparser18
 libtotem0
 libtracker-sparql-1.0-0
+libtry-tiny-perl
 libtsan0
 libtxc-dxtn-s2tc0
 libubsan0
@@ -1380,6 +1398,7 @@ postgresql-client-9.5
 postgresql-client-common
 postgresql-common
 postgresql-contrib-9.5
+postgresql-doc-9.5
 powermgmt-base
 ppp
 pppconfig
@@ -1541,6 +1560,7 @@ rhythmbox
 rhythmbox-data
 rhythmbox-plugin-zeitgeist
 rhythmbox-plugins
+rlwrap
 rsync
 rtkit
 samba-common
